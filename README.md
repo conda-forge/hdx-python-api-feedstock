@@ -1,11 +1,11 @@
-About hdx-python-api
-====================
+About hdx-python-api-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hdx-python-api-feedstock/blob/main/LICENSE.txt)
 
 Home: http://data.humdata.org
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hdx-python-api-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python API for interacting with the HDX Data Porta
 
