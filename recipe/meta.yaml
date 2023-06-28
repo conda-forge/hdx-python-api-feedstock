@@ -18,12 +18,14 @@ requirements:
   host:
     - python >=3.8
     - pip
+    - hatchling
+    - hatch-vcs
   run:
     - python >=3.8
     - ckanapi >=4.7
     - defopt >=6.4.0
     - email_validator
-    - hdx-python-country >=3.4.8
+    - hdx-python-country >=3.5.1
     - makefun
     - ndg-httpsclient
     - pyasn1
