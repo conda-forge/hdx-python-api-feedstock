@@ -1,13 +1,13 @@
 {% set name = "hdx-python-api" %}
-{% set version = "6.0.2" %}
+{% set version = "6.0.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f44c96e130ae55b22af8c0923c7e484851ae6d9cb7bae94bb07dbdc460c837ce
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: cbb0e6dff533e44519da938ade3c667afbd1f149765be6ad499a68307b14f934
 
 build:
   noarch: python
@@ -18,12 +18,14 @@ requirements:
   host:
     - python >=3.8
     - pip
+    - hatchling
+    - hatch-vcs
   run:
     - python >=3.8
     - ckanapi >=4.7
     - defopt >=6.4.0
     - email_validator
-    - hdx-python-country >=3.4.8
+    - hdx-python-country >=3.5.1
     - makefun
     - ndg-httpsclient
     - pyasn1
