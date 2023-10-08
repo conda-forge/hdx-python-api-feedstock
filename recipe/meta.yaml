@@ -25,7 +25,7 @@ requirements:
     - ckanapi >=4.7
     - defopt >=6.4.0
     - email_validator
-    - hdx-python-country >=3.5.2
+    - hdx-python-country >=3.5.4
     - makefun
     - ndg-httpsclient
     - pyasn1
