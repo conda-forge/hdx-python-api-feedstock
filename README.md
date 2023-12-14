@@ -16,7 +16,7 @@ Documentation: https://hdx-python-api.readthedocs.io
 The HDX Python API Library is designed to enable you to easily develop code
 that interacts with the Humanitarian Data Exchange (HDX) platform. The
 major goal of the library is to make pushing and pulling data from HDX as
-simple as possible for the end user.
+easy as possible for the end user.
 
 
 Current build status
@@ -105,7 +105,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
