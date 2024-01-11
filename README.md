@@ -15,7 +15,7 @@ Documentation: https://hdx-python-api.readthedocs.io
 
 The HDX Python API Library is designed to enable you to easily develop code
 that interacts with the Humanitarian Data Exchange (HDX) platform. The
-major goal of the library is to make pushing and pulling data from HDX as
+goal of the library is to make pushing and pulling data from HDX as
 simple as possible for the end user.
 
 
