@@ -1,5 +1,5 @@
 {% set name = "hdx-python-api" %}
-{% set version = "6.2.0" %}
+{% set version = "6.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 01568799ef3c92f8dc6fc78e8cde28111915f2977d83e61851d3ff471f18ae8f
+  sha256: 36a76e12a832f6e133766381177bf6197ff122845d995f9f836966a6a88d3a7c
 
 build:
   noarch: python
@@ -25,9 +25,9 @@ requirements:
     - ckanapi >=4.7
     - defopt >=6.4.0
     - email_validator
-    - hdx-python-country >=3.6.3
-    - hdx-python-utilities >=3.6.3
-    - libhxl >=5.1
+    - hdx-python-country >=3.6.4
+    - hdx-python-utilities >=3.6.4
+    - libhxl >=5.2
     - makefun
     - ndg-httpsclient
     - pyasn1
