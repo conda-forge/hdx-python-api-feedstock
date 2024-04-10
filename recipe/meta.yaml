@@ -22,10 +22,10 @@ requirements:
     - hatch-vcs
   run:
     - python >=3.8
-    - ckanapi >=4.7
+    - ckanapi >=4.8
     - defopt >=6.4.0
     - email_validator
-    - hdx-python-country >=3.6.9
+    - hdx-python-country >=3.7.0
     - hdx-python-utilities >=3.6.7
     - libhxl >=5.2.1
     - makefun
@@ -47,7 +47,7 @@ test:
 
 about:
   home: http://data.humdata.org
-  summary: Python API for interacting with the HDX Data Porta
+  summary: Python API for interacting with the HDX Data Portal
   description: |
     The HDX Python API Library is designed to enable you to easily develop code
     that interacts with the Humanitarian Data Exchange (HDX) platform. The
