@@ -7,7 +7,7 @@ Home: http://data.humdata.org
 
 Package license: MIT
 
-Summary: Python API for interacting with the HDX Data Porta
+Summary: Python API for interacting with the HDX Data Portal
 
 Development: https://github.com/OCHA-DAP/hdx-python-api
 
