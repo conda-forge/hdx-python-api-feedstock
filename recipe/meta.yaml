@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: 3a3bd9a61d67c5a958944dad1a928b0a094dff9ab60d17c435a7fbe4423dcffb
 
 build:
@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python 3.8
     - pip
     - hatchling
     - hatch-vcs
@@ -25,9 +25,9 @@ requirements:
     - ckanapi >=4.8
     - defopt >=6.4.0
     - email_validator
-    - hdx-python-country >=3.7.8
-    - hdx-python-utilities >=3.7.3
-    - libhxl >=5.2.1
+    - hdx-python-country >=3.8.3
+    - hdx-python-utilities >=3.7.4
+    - libhxl >=5.2.2
     - makefun
     - quantulum3
     - requests
