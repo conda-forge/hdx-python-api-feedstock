@@ -1,5 +1,5 @@
 {% set name = "hdx-python-api" %}
-{% set version = "6.5.4" %}
+{% set version = "6.5.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: da4d2663141a2738a2a272fbd2255c9a76d3ec459cc40d337dba7923a378fe4c
+  sha256: 3bba518d2e354a8be0a0f0e2f7483ecbd143e64bcfb37d5f8cf152637d538cfe
 
 build:
   noarch: python
@@ -26,7 +26,7 @@ requirements:
     - defopt >=7.0.0
     - email_validator
     - hdx-python-country >=3.9.8
-    - hdx-python-utilities >=3.9.5
+    - hdx-python-utilities >=3.9.6
     - libhxl >=5.2.2
     - makefun
     - quantulum3
