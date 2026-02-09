@@ -27,8 +27,7 @@ requirements:
     - email_validator
     - hdx-python-country >=4.0.1
     - hdx-python-utilities >=4.0.4
-    - makefun
-    - quantulum3
+    - makefun    
     - requests
 
 test:
