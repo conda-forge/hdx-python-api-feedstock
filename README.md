@@ -26,7 +26,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/hdx-python-api-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/hdx-python-api-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
@@ -48,31 +50,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `hdx-python-api` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install hdx-python-api
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install hdx-python-api
 ```
 
-It is possible to list all of the versions of `hdx-python-api` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add hdx-python-api
+# for installing globally
+pixi global install hdx-python-api
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `hdx-python-api` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search hdx-python-api --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search hdx-python-api --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search hdx-python-api --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -84,6 +128,8 @@ mamba repoquery whoneeds hdx-python-api --channel conda-forge
 # List dependencies of `hdx-python-api`:
 mamba repoquery depends hdx-python-api --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
