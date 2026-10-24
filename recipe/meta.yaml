@@ -1,5 +1,5 @@
 {% set name = "hdx-python-api" %}
-{% set version = "6.7.4" %}
+{% set version = "6.7.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 9da93f25a0a946df78bf2369aae3a2225f7568a1e93e2a3bd19c27a6382949e5
+  sha256: 8212c3ce8e0a4652d5083728e5567978ffdd3280a42f2f2003ae571fd2656f5e
 
 build:
   noarch: python
@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - python {{ python_min }}
+    - python
     - pip
     - hatchling
     - hatch-vcs
@@ -25,7 +25,7 @@ requirements:
     - ckanapi >=4.11
     - defopt >=7.0.0
     - email_validator
-    - hdx-python-country >=4.2.3
+    - hdx-python-country >=4.2.4
     - hdx-python-utilities >=4.2.1
     - makefun
     - requests
